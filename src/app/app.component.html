@@ -1,0 +1,7 @@
+<input type="number" placeholder="ID for search" [(ngModel)]="searchUserID"> <br> <br>
+<input type="number" placeholder="ID" [(ngModel)]="userID"> <br>
+<input type="text" placeholder="Title" [(ngModel)]="userTitle"> <br>
+<input type="checkbox" [(ngModel)]="isUserCompleted"> <br>
+
+<button (click)="getUser()">Get User</button>
+<router-outlet />
